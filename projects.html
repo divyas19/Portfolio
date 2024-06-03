@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>All Projects</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- Scroll-up-arrow -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <!-- Sticky navbar -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <!-- Animated text -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
+  </head>
+  <style>
+    .navbar {
+      background-color: #222;
+    }
+
+    .even {
+      background-color: #222;
+    }
+
+    .even .title {
+      color: white;
+    }
+
+    .even .title::before {
+      color: white;
+    }
+
+    .even .projects-content {
+      background-color: #222;
+    }
+
+    .projects:nth-of-type(even) .title::before {
+      background-color: white;
+    }
+  </style>
+  <body>
+    <div class="scroll-up-btn">
+      <i class="fas fa-angle-up"></i>
+    </div>
+    <nav class="navbar">
+      <div class="max-width">
+        <div class="logo">
+          <a href="#">All <span>Projects</span></a>
+        </div>
+        <ul class="menu">
+          <li><a href="#react" class="menu-btn">ReactJS</a></li>
+          <li><a href="#js" class="menu-btn">JavaScript</a></li>
+        </ul>
+        <div class="menu-btn">
+          <i class="fas fa-bars"></i>
+        </div>
+      </div>
+    </nav>
+
+    <!-- projects section start -->
+    <section class="projects" id="react">
+      <div class="max-width">
+        <h2 class="title">ReactJs</h2>
+        <div class="projects-content">
+          <div class="project-box">
+            <div>
+              <img src="./images/weather-app-img.jpg" alt="weather app" />
+            </div>
+            <div class="project-info">
+              <h2>Weather App</h2>
+              <h4>ReactJS, JavaScript, Tailwind CSS, Firebase</h4>
+              <p>
+                The Weather App, built with ReactJS, Tailwind CSS, and Firebase
+                authentication, uses React Query to fetch and cache real-time
+                weather data from the openweathermap API, improving loading
+                times and efficiency by 50%. Protected routes allow users to
+                securely register, log in, and access personalized weather
+                details like temperature, wind speed, weather description, and
+                humidity.
+              </p>
+              <a href="https://github.com/divyas19/WeatherApp"
+                ><i class="fas fa-link"></i> Github</a
+              >
+            </div>
+          </div>
+          <div class="project-box">
+            <div>
+              <img
+                src="./images//view-share-news-img.jpg"
+                alt="view share news"
+              />
+            </div>
+            <div class="project-info">
+              <h2>View Share News</h2>
+              <h4>ReactJS, JavaScript, Bootstrap</h4>
+              <p>
+                Created a dynamic news website with ReactJS featuring real-time
+                news updates sourced from newsapi API. Implemented categorized
+                news sections for user convenience, integrated bookmarking
+                functionality for saving articles, and WhatsApp sharing for
+                enhanced user engagement.
+              </p>
+              <a href="https://github.com/divyas19/ViewShareNews"
+                ><i class="fas fa-link"></i> Github</a
+              >
+            </div>
+          </div>
+          <div class="project-box">
+            <div>
+              <img
+                src="./images/currency-converter-img.png"
+                alt="currency converter"
+              />
+            </div>
+            <div class="project-info">
+              <h2>Currency Converter</h2>
+              <h4>ReactJS, JavaScript, CSS</h4>
+              <p>
+                Developed an application that allows users to select source and
+                target countries for currency conversion. The app utilizes
+                real-time exchange rates fetched from Fixer.io API, providing
+                instant and accurate conversions and thus reducing manual
+                efforts by 60%
+              </p>
+              <a href="https://github.com/divyas19/CurrencyConverter"
+                ><i class="fas fa-link"></i> Github</a
+              >
+            </div>
+          </div>
+          <div class="project-box">
+            <div>
+              <img src="./images/cats-gallery-img.jpg" alt="cats gallery" />
+            </div>
+            <div class="project-info">
+              <h2>Cats Gallery</h2>
+              <h4>
+                ReactJS, JavaScript, API Integration, Tailwind CSS, Firebase
+              </h4>
+              <p>
+                The Cats Gallery, a web app crafted with ReactJS and Firebase,
+                provides users a delightful experience of browsing and sharing
+                cute cat images. Securely registering and logging in grants
+                access to a dynamic collection of 10 random cat pictures.
+                Firebase Authentication facilitates seamless sign-up and login
+                using email and password, ensuring a smooth and secure process.
+              </p>
+              <a href="https://github.com/divyas19/Cats_Gallery"
+                ><i class="fas fa-link"></i> Github</a
+              >
+            </div>
+          </div>
+          <div class="project-box">
+            <div>
+              <img src="./images/task-manager-img.jpg" alt="task manager" />
+            </div>
+            <div class="project-info">
+              <h2>Task Manager</h2>
+              <h4>ReactJS, JavaScript, CSS, Bootstrap, HTML</h4>
+              <p>
+                Developed a Task Manager application using ReactJS, JavaScript,
+                CSS, and Bootstrap. The app enables users to add, delete, and
+                mark tasks as done, with an option to clear all tasks at once.
+                This project showcases proficiency in creating responsive,
+                user-friendly web applications with efficient task management
+                capabilities.
+              </p>
+              <a
+                href="https://github.com/divyas19/Task_Manager?tab=readme-ov-file"
+                ><i class="fas fa-link"></i> Github</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="projects even" id="js">
+      <div class="max-width">
+        <h2 class="title">JavaScript</h2>
+        <div class="projects-content">
+          <div class="project-box">
+            <div>
+              <img src="./images/notes-diary-img.png" alt="notes diary" />
+            </div>
+            <div class="project-info">
+              <h2>Notes Diary</h2>
+              <h4>JavaScript, CSS, HTML</h4>
+              <p>
+                Notes Diary is a note taking website. Features like adding
+                customized title and deleting notes is available. One can search
+                the notes based on the contents. Adding title, deleting and
+                searching is handled through JavaScript.
+              </p>
+              <a
+                href="https://github.com/divyas19/Notes-Diary?tab=readme-ov-file"
+                ><i class="fas fa-link"></i> Github</a
+              >
+            </div>
+          </div>
+          <div class="project-box">
+            <div>
+              <img src="./images/text-formatter-img.jpg" alt="text formatter" />
+            </div>
+            <div class="project-info">
+              <h2>Text Formatter</h2>
+              <h4>JavaScript, Bootstrap, CSS, HTML</h4>
+              <p>
+                Text Formatter is a website for formatting entered text
+                (uppercase, lowercase, capitalize words, capitalize sentences,
+                clear, copy, and remove) and features Dark Mode and Light Mode
+                options to enhance user experience and accessibility.
+              </p>
+              <a href="https://github.com/divyas19/TextFormatter"
+                ><i class="fas fa-link"></i> Github</a
+              >
+            </div>
+          </div>
+          <div class="project-box">
+            <div>
+              <img src="./images/calculator-img.png" alt="calculator" />
+            </div>
+            <div class="project-info">
+              <h2>Calculator</h2>
+              <h4>JavaScript, CSS, HTML</h4>
+              <p>
+                The basic calculator web application utilizes HTML, CSS, and
+                JavaScript to create a user-friendly interface for performing
+                arithmetic operations. It demonstrates the integration of
+                front-end technologies to implement a functional and visually
+                appealing calculator tool.
+              </p>
+              <a href="https://github.com/divyas19/CalculatorProject"
+                ><i class="fas fa-link"></i> Github</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer section start -->
+    <footer>
+      <span>My Projects</span>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
